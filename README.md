@@ -1,4 +1,4 @@
-# discord-py-components
+# discord-py-message-components
 
 ## About
-A Discord Library
+A library that communicates with the Discord API to make Message Components available.
