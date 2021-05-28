@@ -38,9 +38,9 @@ def button(
         button_type: Union[int, ComponentType],
         style: Union[int, ButtonStyle],
         label: str,
-        emoji,
         custom_id: str,
-        url: str,
+        emoji: dict = None,
+        url: str = None,
         disabled: bool = False
 ) -> dict:
     data = {
